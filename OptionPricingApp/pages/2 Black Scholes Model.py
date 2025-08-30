@@ -39,7 +39,7 @@ if type == "Call":
 else:
     bs_price = round(put_price(S, K, r, T, sigma), 2)
 # Displaying in bold (using **)
-st.write(f"**{type} Option Price:** $", bs_price)
+st.subheader(f"**{type} Option Price:** $", bs_price)
 
 
 
