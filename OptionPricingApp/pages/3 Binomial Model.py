@@ -35,7 +35,6 @@ american = st.sidebar.selectbox("American Option?", [True, False])
 
 
 # Calculate & Display Binomial Price
-st.subheader("Binomial Price")
 # Round to nearest Hundredth (since we want it in cents)
 bin_price = round(binomial_price(S, K, r, T, sigma, steps, type, american), 2)
 # Displaying in bold (using **)
