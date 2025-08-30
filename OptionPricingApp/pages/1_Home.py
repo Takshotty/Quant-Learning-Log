@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.title("Tak's Simple Option Pricer")
+st.title("Tak's Interactive Option Pricer")
+st.subtitle("Best viewed on laptop/desktop (not optimized for mobile)")
 
 st.write("""
 This web app demonstrates two fundamental option pricing models: 
