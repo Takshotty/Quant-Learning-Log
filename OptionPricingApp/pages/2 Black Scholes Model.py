@@ -31,7 +31,6 @@ sigma = st.sidebar.slider("Volatility (σ)", 0.0, 1.0, 0.2, step = 0.01)
 # The option type is binary so I used a drop down menu (selectbox instead of radio)
 
 # Calculate & Display Black-Scholes Price
-st.subheader("Black–Scholes Price")
 # Note: Since I made a separate function for call and put prices for BS, I need to use an if-else statement here:
 if type == "Call":
     # Round to nearest Hundredth (since we want it in cents)
