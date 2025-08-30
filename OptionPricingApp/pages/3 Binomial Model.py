@@ -38,7 +38,7 @@ american = st.sidebar.selectbox("American Option?", [True, False])
 # Round to nearest Hundredth (since we want it in cents)
 bin_price = round(binomial_price(S, K, r, T, sigma, steps, type, american), 2)
 # Displaying in bold (using **)
-st.subheader(f"**{type} Option Price:** $:red[{bin_price}]")
+st.subheader(f"**{type} Option Price:** :$blue[{bin_price}]")
 
 
 
