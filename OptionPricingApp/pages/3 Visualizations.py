@@ -34,8 +34,8 @@ if visualization == "K vs. σ Heatmap":
     st.subheader(f"{option_type} Option Price Heatmap (Strike Price vs Volatility)")
     st.write("Note: The heatmap prices are determined by the Black-Scholes Model")
 
-    K_values = np.linspace(50, 150, 100)
-    sigma_values = np.linspace(0.05, 1.0, 100)
+    K_values = np.linspace(K * 0.5, K * 1.5, 100)
+    sigma_values = np.linspace(sigma * 0.5, sigma * 1.5, 100)
     # Create the numpy array of prices of 100x100 (to reflect size of K_values and sigma_values)
     # Note that I'm going to eventually fill in the array
     prices = np.zeros((len(sigma_values), len(K_values)))
