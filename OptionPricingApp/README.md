@@ -6,17 +6,3 @@ Throughout this Summer (2025), taking advantage of many available free resources
 
 - Black-Scholes (European Options)
 - Binomial Tree (European & American Options)
-- Monte Carlo Simulation (European Options)
-
-## Project Structure
-- `models/` —> pricing model implementations (`black_scholes.py`, `binomial.py`, `monte_carlo.py`)
-- `tests/` —> unit tests to verify correctness
-- `notebooks/` —> Jupyter notebooks for exploration and visualization
-- `app/` —> Streamlit app for interactivity
-
-## Setup
-1. Create a virtual environment:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate   # Mac/Linux
-   .\.venv\Scripts\Activate.ps1 # Windows PowerShell
