@@ -6,3 +6,5 @@ Throughout this Summer (2025), taking advantage of many available free resources
 
 - Black-Scholes (European Options)
 - Binomial Tree (European & American Options)
+
+Check out my app here: https://taks-simple-option-pricer.streamlit.app/Home
